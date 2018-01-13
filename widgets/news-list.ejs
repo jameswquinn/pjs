@@ -1,0 +1,22 @@
+<%
+    let {
+        list = []
+    } = locals.entry;
+
+    if (!list.length) {
+        return  'No news yet :((';
+    }
+-%>
+<ul class="news-list">
+    <% list.forEach(james => { -%>
+        <li class="news-list__item">
+            <div class="news-item">
+                <div class="news-item__title"><%- james.title %></div>
+                <div class="news-item__description">
+                    <p><%- james.description %></p>
+                    <p><a href="<%- james.href %>">Read more</a></p>
+                </div>
+            </div>
+        </li>
+    <% }); -%>
+</ul>

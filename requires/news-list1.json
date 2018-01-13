@@ -1,0 +1,27 @@
+[
+    {
+        "title": "News title 1",
+        "description": "Lorem ipsum dolor sit ....",
+        "href": "news-page.html"
+    }, {
+        "title": "News title 2",
+        "description": "Lorem ipsum dolor sit ....",
+        "href": "news-page.html"
+    }, {
+        "title": "News title 3",
+        "description": "Lorem ipsum dolor sit ....",
+        "href": "news-page.html"
+    }, {
+        "title": "News title 1",
+        "description": "Lorem ipsum dolor sit ....",
+        "href": "news-page.html"
+    }, {
+        "title": "News title 2",
+        "description": "Lorem ipsum dolor sit ....",
+        "href": "news-page.html"
+    }, {
+        "title": "News title 3",
+        "description": "Lorem ipsum dolor sit ....",
+        "href": "news-page.html"
+    }
+]

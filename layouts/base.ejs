@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <%- locals.include('partials/metatag.ejs') %>
+        <title><%- locals.blocks.title %></title>
+        <%- locals.include('partials/favicons.ejs') %>
+        <style><%- locals.include('partials/critical.css') %></style>
+    </head>
+    <body>
+        <%- locals.blocks.header %>
+        <%- locals.body %>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<% locals.setLayout('layouts/base.ejs') -%>
+<% locals.block('title', 'Last News') -%>
+<% let newsList = locals.require('requires/news-list.json') -%>
+
+<h1>Last News</h1>
+<%- locals.widget('widgets/news-list.ejs', {list: newsList}) %>
+<hr>
